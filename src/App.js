@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css'
 import SignUp from './Components/SignUp';
 
 const App = () => {
