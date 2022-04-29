@@ -18,8 +18,7 @@ background: linear-gradient(
 );
 }
 .fromContainer{
-    width: 300px;
-   
+    width: 400px;
     padding: 30px 40px;
     background-color: #e4dfdf32;
     border-radius: 7px;
@@ -37,6 +36,9 @@ background: linear-gradient(
     color: #201f37;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
+}
+.filed:nth-child(6) label{
+    color: #070623ef ;
 }
 .filed input{
     height: 25px;
