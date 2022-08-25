@@ -12,15 +12,14 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-background: linear-gradient(
-    to bottom right,
-     #333333 , #fcbc5b14
-);
+    background:url(./assets/cool-background.png);
+    background-position: center;
+    background-size: cover;
 }
 .fromContainer{
     width: 400px;
     padding: 30px 40px;
-    background-color: #e4dfdf32;
+    background-color: #0b0a0a4d;
     border-radius: 7px;
 }
 .filed{
@@ -33,12 +32,12 @@ background: linear-gradient(
 }
 .filed label{
     padding: 7px 0;
-    color: #201f37;
+    color: #d9d9deef;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
 }
 .filed:nth-child(6) label{
-    color: #070623ef ;
+    color: #d9d9deef ;
 }
 .filed input{
     height: 25px;
@@ -64,7 +63,7 @@ background: linear-gradient(
     margin-top: 5px;
 }
 .header{
-    color: #141332;
+    color: rgb(240, 230, 230);
     font-size: 30px;
 }
 .btns{
